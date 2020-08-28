@@ -8,7 +8,7 @@ class Node {
 
 // Linkedlist Data structure, made up of nodes that point to the next node in the list
 // Has a head and tail node to point the start and the end of the linked list
-class LinkedList {
+export class LinkedList {
     constructor() {
         // set head to an empty node when first initializing
         this.head = new Node(null)
